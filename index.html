@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Login
+  </title>
+  <link rel = "stylesheet" href = "main.css">
+  <script defer src="login.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id ="login-header">
+      <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Northrop_Grumman.svg/1280px-Northrop_Grumman.svg.png 
+      width = "500" height = "150 ">
+    </h1>
+    <h1>The Penny Game</h1>
+    <h3>For Agile Training Workshops</h3>
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username<span id="error-msg-second-line">and/or password</span></p>
+    </div>
+
+    <form id="login-form">
+      <input type="text" name="Name" id ="username-field" class="login-form-field" placeholder="Name">
+      <input type="text" id="team-number-field" class="login-form-field" placeholder="Team Number">
+      
+      <input type="button" onclick="parent.location= 'test01.html'"  value="Join Game" id ="login-form-submit">
+    </form>
+  </main>
+</body>
+</html>
